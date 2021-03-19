@@ -1,0 +1,23 @@
+﻿using Hotelmanagement.BAL.Interface;
+using Hotelmanagement.DAL;
+using Hotelmanagement.Model;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hotelmanagement.BAL
+{
+    public class Hotel : IHotel
+    {
+        IHotelRepository hotelRepository;
+
+        public List<HotelModel> GetHotels()
+        {
+            var result = hotelRepository.GetHotels();
+            return result;
+        }
+    }
+}
