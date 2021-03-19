@@ -14,7 +14,7 @@ namespace Hotelmanagement.DAL.Repository
         {
             using (var entity = new HotelManagementEntities())
             {
-                var hotel = new DAL.Database.Hotel();
+                    var hotel = new DAL.Database.Hotel();
                     hotel.HotelName = model.HotelName;
                     hotel.Address = model.Address;
                     hotel.City = model.City;
