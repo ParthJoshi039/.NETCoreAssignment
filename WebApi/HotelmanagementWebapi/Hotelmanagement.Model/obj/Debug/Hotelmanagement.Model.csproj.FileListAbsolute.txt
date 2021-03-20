@@ -1,0 +1,5 @@
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\bin\Debug\Hotelmanagement.Model.dll
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\bin\Debug\Hotelmanagement.Model.pdb
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.csproj.CoreCompileInputs.cache
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.dll
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.pdb

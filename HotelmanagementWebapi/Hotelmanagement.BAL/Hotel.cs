@@ -1,5 +1,6 @@
 ﻿using Hotelmanagement.BAL.Interface;
 using Hotelmanagement.DAL;
+using Hotelmanagement.DAL.Repository;
 using Hotelmanagement.Model;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,6 +14,11 @@ namespace Hotelmanagement.BAL
     public class Hotel : IHotel
     {
         IHotelRepository hotelRepository;
+
+        public void AddHotel(HotelModel model)
+        {
+            hotelRepository.AddHotel(model);
+        }
 
         public List<HotelModel> GetHotels()
         {

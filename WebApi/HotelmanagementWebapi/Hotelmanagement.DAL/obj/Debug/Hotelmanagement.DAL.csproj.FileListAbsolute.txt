@@ -1,0 +1,16 @@
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csprojAssemblyReference.cache
+D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CoreCompileInputs.cache
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csprojAssemblyReference.cache
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CoreCompileInputs.cache
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.dll.config
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.dll
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.pdb
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.dll
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.Model.dll
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.Model.pdb
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.xml
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CopyComplete
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.dll
+D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.pdb

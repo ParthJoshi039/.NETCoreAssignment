@@ -9,7 +9,7 @@ namespace Hotelmanagement.BAL.Interface
 {
     public interface IHotel
     {
-        public IActionResult GetHotels();
+        IActionResult GetHotels();
         
  
     }
