@@ -1,0 +1,14 @@
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.BAL.deps.json
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.BAL.dll
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.BAL.pdb
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.csprojAssemblyReference.cache
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.AssemblyInfoInputs.cache
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.AssemblyInfo.cs
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.csproj.CoreCompileInputs.cache
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.dll
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.pdb
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.DAL.dll
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.Model.dll
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.DAL.pdb
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\bin\Debug\netcoreapp3.1\Employeemanagement.Model.pdb
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.BAL\obj\Debug\netcoreapp3.1\Employeemanagement.BAL.csproj.CopyComplete
