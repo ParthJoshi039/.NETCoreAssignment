@@ -19,17 +19,45 @@ namespace Employeemanagement.DAL
 
         public void AddEmployee(EmployeeModel model)
         {
-            throw new NotImplementedException();
+            var employee = new EmployeeEntity()
+            {
+                Name=model.Name,
+                Department=model.Department,
+                Salary=model.Salary,
+                IsManager=model.IsManager,
+                Manager=model.Manager,
+                Phone=model.Phone,
+                EmailId=model.EmailId
+            };
+           db.Employees.Add(employee);
+           db.SaveChanges();
         }
 
         public void DeleteEmployee(int id)
         {
-            throw new NotImplementedException();
+            var employee = db.Employees.FirstOrDefault(x => x.ID == id);
+            if(employee != null)
+            {
+                db.Employees.Remove(employee);
+                db.SaveChanges();
+            }
         }
 
-        public void GetEmployeeById(int id)
+        public EmployeeModel GetEmployeeById(int id)
         {
-            throw new NotImplementedException();
+           
+                var employee = db.Employees.FirstOrDefault(x => x.ID == id);
+                var result = new EmployeeModel()
+                {
+                    Name = employee.Name,
+                    Department = employee.Name,
+                    Salary = employee.Salary,
+                    IsManager = employee.IsManager,
+                    Manager = employee.Manager,
+                    Phone = employee.Phone,
+                    EmailId = employee.EmailId
+                };
+                return result;
         }
 
         public  List<EmployeeModel> GetEmployees()
@@ -49,13 +77,38 @@ namespace Employeemanagement.DAL
                     EmailId=employee.EmailId
                 };
             employees.Add(result);
+            db.SaveChanges();
             }
             return employees;
         }
 
         public void UpdateEmployee(int id, EmployeeModel model)
         {
-            throw new NotImplementedException();
+            var employee = db.Employees.FirstOrDefault(x => x.ID == id);
+            if (employee != null)
+            {
+                employee.Name = model.Name;
+                employee.Department = model.Department;
+                employee.Salary = model.Salary;
+                employee.IsManager = model.IsManager;
+                employee.Manager = model.Manager;
+                employee.Phone = model.Phone;
+                employee.EmailId = model.EmailId;
+            }
+            db.SaveChanges();
+        }
+        public List<EmployeeModel> GetAllManagers()
+        {
+            List<EmployeeModel> employee = new List<EmployeeModel>();
+            foreach(var empname in db.Employees.Where(x=>x.IsManager==true).Select(x=>x.Name).ToList())
+            {
+                var response = new EmployeeModel()
+                {
+                    Name = empname,
+                };
+                employee.Add(response);
+            }
+            return employee;
         }
     }
 }

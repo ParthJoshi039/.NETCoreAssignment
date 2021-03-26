@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeemanagement.BAL", "Employeemanagement.BAL\Employeemanagement.BAL.csproj", "{281AD54F-98A5-4785-ADF8-6C6FBDC52F0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeemanagement.BAL", "Employeemanagement.BAL\Employeemanagement.BAL.csproj", "{281AD54F-98A5-4785-ADF8-6C6FBDC52F0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeemanagement.DAL", "Employeemanagement.DAL\Employeemanagement.DAL.csproj", "{287C96AB-0A93-45D7-9349-A2E1DB1CFD6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeemanagement.DAL", "Employeemanagement.DAL\Employeemanagement.DAL.csproj", "{287C96AB-0A93-45D7-9349-A2E1DB1CFD6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeemanagement.Model", "Employeemanagement.Model\Employeemanagement.Model.csproj", "{67585C24-C127-4504-92EC-2641D4B540DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeemanagement.Model", "Employeemanagement.Model\Employeemanagement.Model.csproj", "{67585C24-C127-4504-92EC-2641D4B540DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeemanagement.WEBAPI", "Employeemanagement.WEBAPI\Employeemanagement.WEBAPI.csproj", "{9068DB3D-0E26-4C50-9FC3-854800EF9E8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeemanagement.WEBAPI", "Employeemanagement.WEBAPI\Employeemanagement.WEBAPI.csproj", "{9068DB3D-0E26-4C50-9FC3-854800EF9E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.MVC", "EmployeeManagement.MVC\EmployeeManagement.MVC.csproj", "{FB4CF056-5824-406B-9DB1-B5F0572E1BC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9068DB3D-0E26-4C50-9FC3-854800EF9E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9068DB3D-0E26-4C50-9FC3-854800EF9E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9068DB3D-0E26-4C50-9FC3-854800EF9E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4CF056-5824-406B-9DB1-B5F0572E1BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4CF056-5824-406B-9DB1-B5F0572E1BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4CF056-5824-406B-9DB1-B5F0572E1BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4CF056-5824-406B-9DB1-B5F0572E1BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

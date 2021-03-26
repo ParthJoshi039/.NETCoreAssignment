@@ -15,9 +15,10 @@ namespace Employeemanagement.DAL.Interface
         //Task<int> DeleteEmployee(int id);
 
          List<EmployeeModel> GetEmployees();
-         void GetEmployeeById(int id);
+         EmployeeModel GetEmployeeById(int id);
          void AddEmployee(EmployeeModel model);
          void UpdateEmployee(int id, EmployeeModel model);
          void DeleteEmployee(int id);
+         List<EmployeeModel> GetAllManagers();
     }
 }

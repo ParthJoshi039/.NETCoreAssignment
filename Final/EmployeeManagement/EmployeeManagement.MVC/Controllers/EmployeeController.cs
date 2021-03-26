@@ -1,0 +1,126 @@
+﻿using Employeemanagement.Model;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EmployeeManagement.MVC.Controllers
+{
+    public class EmployeeController : Controller
+    {
+        // GET: EmployeeController
+         public async Task<IActionResult> Index()
+        {
+            using (HttpClient client=new HttpClient())
+            {
+                using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployees"))
+                {
+                    var ApiResponse = await response.Content.ReadAsStringAsync();
+                    var result = JsonConvert.DeserializeObject<List<EmployeeModel>>(ApiResponse);
+                    return View(result);
+                }
+            }
+        }
+        // GET: EmployeeController/Details/5
+        public ActionResult Details(int id)
+        {
+            return View();
+        }
+
+        // GET: EmployeeController/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: EmployeeController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(EmployeeModel model)
+        {
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    StringContent stringContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8,"application/json");
+                    using (var response = await client.PostAsync("https://localhost:44302/api/Employee/AddEmployee",(stringContent)))
+                    {
+                        return RedirectToAction("Index");
+
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                return Ok(ex.Message);
+            }
+        }
+    
+        [HttpGet,Route("Employee/Edit/{id}")]
+        public async Task<ActionResult> Edit(int id)
+        {
+            using (HttpClient client=new HttpClient())
+            {
+                using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployeeByID?id=" + id))
+                {
+                    var ApiResponse = await response.Content.ReadAsStringAsync();
+                    var result = JsonConvert.DeserializeObject<EmployeeModel>(ApiResponse);
+                    return View(result);
+                }
+            }
+        }
+        // POST: EmployeeController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Edit(EmployeeModel model)
+        {
+            try
+            {
+                using (HttpClient client=new HttpClient())
+                {
+                    StringContent stringContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
+                    using (var response = await client.PutAsync("https://localhost:44302/api/Employee/UpdateEmployee?id=" + model.ID, stringContent))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                }
+            }
+            catch
+            {
+                return View();
+            }
+        }
+        
+        // GET: EmployeeController/Delete/5
+        public async Task<ActionResult> Delete(int id)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                using (var response = await client.DeleteAsync("https://localhost:44302/api/Employee/DeleteEmployee?id=" + id))
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+        }
+
+        // POST: EmployeeController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id, IFormCollection collection)
+        {
+            try
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            catch
+            {
+                return View();
+            }
+        }
+    }
+}
