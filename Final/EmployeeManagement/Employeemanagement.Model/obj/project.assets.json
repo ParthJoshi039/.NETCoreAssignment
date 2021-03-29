@@ -8,23 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\parth.joshi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\win-10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
+      "projectUniqueName": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
       "projectName": "Employeemanagement.Model",
-      "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
-      "packagesPath": "C:\\Users\\parth.joshi\\.nuget\\packages\\",
-      "outputPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\obj\\",
+      "projectPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
+      "packagesPath": "C:\\Users\\win-10\\.nuget\\packages\\",
+      "outputPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\parth.joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\win-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

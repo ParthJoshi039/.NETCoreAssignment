@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.NETCore\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj": {}
+    "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj": {}
   },
   "projects": {
-    "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
+    "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
+        "projectUniqueName": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
         "projectName": "Employeemanagement.Model",
-        "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
-        "packagesPath": "C:\\Users\\parth.joshi\\.nuget\\packages\\",
-        "outputPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\obj\\",
+        "projectPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj",
+        "packagesPath": "C:\\Users\\win-10\\.nuget\\packages\\",
+        "outputPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\parth.joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\win-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,24 +54,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\.NETCore\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj": {
+    "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.NETCore\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj",
+        "projectUniqueName": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj",
         "projectName": "EmployeeManagement.MVC",
-        "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj",
-        "packagesPath": "C:\\Users\\parth.joshi\\.nuget\\packages\\",
-        "outputPath": "D:\\.NETCore\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\obj\\",
+        "projectPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\EmployeeManagement.MVC.csproj",
+        "packagesPath": "C:\\Users\\win-10\\.nuget\\packages\\",
+        "outputPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\EmployeeManagement.MVC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\parth.joshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\win-10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
-                "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj"
+              "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
+                "projectPath": "D:\\Parth\\.NETCoreAssignment\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj"
               }
             }
           }
@@ -131,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

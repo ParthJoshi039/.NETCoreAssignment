@@ -76,7 +76,7 @@ namespace Employeemanagement.WEBAPI.Controllers
         [Route("UpdateEmployee")]
         public IActionResult UpdateEmployee(int id, EmployeeModel model)
         {
-            employee.UpdateEmployee(id,model);
+            employee.UpdateEmployee(id, model);
             return Ok("Employee Updated Successfully");
         }
     }

@@ -27,15 +27,49 @@ namespace EmployeeManagement.MVC.Controllers
             }
         }
         // GET: EmployeeController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            return View();
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployeeById?id=" + id))
+                    {
+                        var ApiResponse = await response.Content.ReadAsStringAsync();
+                        var result = JsonConvert.DeserializeObject<EmployeeModel>(ApiResponse);
+                        return View(result);
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Error","Login");
+            }
         }
 
         // GET: EmployeeController/Create
-        public ActionResult Create()
+        public async Task<ActionResult> Create()
         {
-            return View();
+            try
+            {
+                using (HttpClient client = new HttpClient())
+                {
+                    using(var response = await client.GetAsync("https://localhost:44302/api/Employee/GetManagers"))
+                    {
+                        var ApiResponse = await response.Content.ReadAsStringAsync();
+                        var res = JsonConvert.DeserializeObject<List<EmployeeModel>>(ApiResponse);
+                        ViewBag.Managers = res;
+                        return View();
+                    }
+                    
+                }
+                   
+                }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Error", "Login");
+            }
+           
         }
 
         // POST: EmployeeController/Create
@@ -66,6 +100,13 @@ namespace EmployeeManagement.MVC.Controllers
         {
             using (HttpClient client=new HttpClient())
             {
+                using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetManagers"))
+                {
+                    var ApiResponse = await response.Content.ReadAsStringAsync();
+                    var res = JsonConvert.DeserializeObject<List<EmployeeModel>>(ApiResponse);
+                    ViewBag.Managers = res;
+                }
+
                 using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployeeByID?id=" + id))
                 {
                     var ApiResponse = await response.Content.ReadAsStringAsync();
