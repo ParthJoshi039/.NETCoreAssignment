@@ -7,3 +7,12 @@ D:\.NETCore\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcorea
 D:\.NETCore\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.csproj.CoreCompileInputs.cache
 D:\.NETCore\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.dll
 D:\.NETCore\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.pdb
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\bin\Debug\netcoreapp3.1\Employeemanagement.Model.deps.json
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\bin\Debug\netcoreapp3.1\Employeemanagement.Model.dll
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\bin\Debug\netcoreapp3.1\Employeemanagement.Model.pdb
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.csprojAssemblyReference.cache
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.AssemblyInfoInputs.cache
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.AssemblyInfo.cs
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.csproj.CoreCompileInputs.cache
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.dll
+D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.Model\obj\Debug\netcoreapp3.1\Employeemanagement.Model.pdb

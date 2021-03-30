@@ -7566,6 +7566,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Employeemanagement.BAL >= 1.0.0",
+      "Employeemanagement.DAL >= 1.0.0",
       "Employeemanagement.Model >= 1.0.0",
       "Microsoft.AspNet.WebApi.Core >= 5.2.7",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.4",
@@ -7606,6 +7607,9 @@
           "projectReferences": {
             "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.BAL\\Employeemanagement.BAL.csproj": {
               "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.BAL\\Employeemanagement.BAL.csproj"
+            },
+            "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.DAL\\Employeemanagement.DAL.csproj": {
+              "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.DAL\\Employeemanagement.DAL.csproj"
             },
             "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
               "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj"

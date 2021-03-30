@@ -1,4 +1,5 @@
 ﻿using EmployeeManagement.MVC.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -20,6 +21,11 @@ namespace EmployeeManagement.MVC.Controllers
 
         public IActionResult Index()
         {
+            //if(HttpContext.Session.GetString("Token") == null )
+            //{
+            //    return RedirectToAction("Login", "Login");
+            //}
+            //ViewBag.UserName = HttpContext.Session.GetString("UserName");
             return View();
         }
 

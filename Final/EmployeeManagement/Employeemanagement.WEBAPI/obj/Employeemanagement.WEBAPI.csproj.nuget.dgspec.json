@@ -232,6 +232,9 @@
               "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.BAL\\Employeemanagement.BAL.csproj": {
                 "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.BAL\\Employeemanagement.BAL.csproj"
               },
+              "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.DAL\\Employeemanagement.DAL.csproj": {
+                "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.DAL\\Employeemanagement.DAL.csproj"
+              },
               "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj": {
                 "projectPath": "D:\\.NETCore\\Final\\EmployeeManagement\\Employeemanagement.Model\\Employeemanagement.Model.csproj"
               }
