@@ -231,3 +231,6 @@ D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\EmployeeManagement.MVC\obj\
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Login\Error.cshtml.g.cs
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+D:\.NETCore\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Details.cshtml.g.cs
+D:\.NETCore\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Login\Error.cshtml.g.cs
+D:\.NETCore\Final\EmployeeManagement\EmployeeManagement.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Login\Login.cshtml.g.cs

@@ -38,8 +38,8 @@ namespace EmployeeManagement.MVC.Controllers
                         {
                             var ApiResponse = await response.Content.ReadAsStringAsync();
                             HttpContext.Session.SetString("Token", ApiResponse);
-                            HttpContext.Session.SetString("UserName",loginModel.UserName);
-                            return RedirectToAction("Index", "Home");
+                            HttpContext.Session.SetString("UserName", loginModel.UserName);
+                            return RedirectToAction("Index", "Employee");
                         }
                         else
                         {
@@ -55,6 +55,15 @@ namespace EmployeeManagement.MVC.Controllers
                 return RedirectToAction("Error", "Login");
             }
         }
+        [HttpGet]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.SetString("Token", "");
+            HttpContext.Session.SetString("UserName", "");
+            return RedirectToAction("Login", "Login");
+        }
+
+
 
     }
 }

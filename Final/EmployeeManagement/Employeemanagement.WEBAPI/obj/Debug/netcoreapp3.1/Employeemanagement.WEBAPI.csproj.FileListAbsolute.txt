@@ -156,3 +156,4 @@ D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.WEBAPI\o
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.WEBAPI\obj\Debug\netcoreapp3.1\Employeemanagement.WEBAPI.dll
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.WEBAPI\obj\Debug\netcoreapp3.1\Employeemanagement.WEBAPI.pdb
 D:\Parth\.NETCoreAssignment\Final\EmployeeManagement\Employeemanagement.WEBAPI\obj\Debug\netcoreapp3.1\Employeemanagement.WEBAPI.genruntimeconfig.cache
+D:\.NETCore\Final\EmployeeManagement\Employeemanagement.WEBAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll

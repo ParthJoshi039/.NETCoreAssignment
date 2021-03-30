@@ -14,10 +14,17 @@ namespace EmployeeManagement.MVC.Controllers
     public class EmployeeController : Controller
     {
         // GET: EmployeeController
-         public async Task<IActionResult> Index()
+        [ResponseCache(Duration = 30)]
+        public async Task<IActionResult> Index()
         {
+            if(HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+            {
+                return RedirectToAction("Login", "Login");
+            }
             using (HttpClient client=new HttpClient())
             {
+                var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                client.DefaultRequestHeaders.Add("Authorization", tc);
                 using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployees"))
                 {
                     var ApiResponse = await response.Content.ReadAsStringAsync();
@@ -31,8 +38,14 @@ namespace EmployeeManagement.MVC.Controllers
         {
             try
             {
+                if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+                {
+                    return RedirectToAction("Login", "Login");
+                }
                 using (HttpClient client = new HttpClient())
                 {
+                    var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                    client.DefaultRequestHeaders.Add("Authorization", tc);
                     using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployeeById?id=" + id))
                     {
                         var ApiResponse = await response.Content.ReadAsStringAsync();
@@ -52,9 +65,15 @@ namespace EmployeeManagement.MVC.Controllers
         {
             try
             {
+                if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+                {
+                    return RedirectToAction("Login", "Login");
+                }
                 using (HttpClient client = new HttpClient())
                 {
-                    using(var response = await client.GetAsync("https://localhost:44302/api/Employee/GetManagers"))
+                    var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                    client.DefaultRequestHeaders.Add("Authorization", tc);
+                    using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetManagers"))
                     {
                         var ApiResponse = await response.Content.ReadAsStringAsync();
                         var res = JsonConvert.DeserializeObject<List<EmployeeModel>>(ApiResponse);
@@ -79,8 +98,14 @@ namespace EmployeeManagement.MVC.Controllers
         {
             try
             {
+                if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+                {
+                    return RedirectToAction("Login", "Login");
+                }
                 using (HttpClient client = new HttpClient())
                 {
+                    var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                    client.DefaultRequestHeaders.Add("Authorization", tc);
                     StringContent stringContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8,"application/json");
                     using (var response = await client.PostAsync("https://localhost:44302/api/Employee/AddEmployee",(stringContent)))
                     {
@@ -98,15 +123,20 @@ namespace EmployeeManagement.MVC.Controllers
         [HttpGet,Route("Employee/Edit/{id}")]
         public async Task<ActionResult> Edit(int id)
         {
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+            {
+                return RedirectToAction("Login", "Login");
+            }
             using (HttpClient client=new HttpClient())
             {
+                var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                client.DefaultRequestHeaders.Add("Authorization", tc);
                 using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetManagers"))
                 {
                     var ApiResponse = await response.Content.ReadAsStringAsync();
                     var res = JsonConvert.DeserializeObject<List<EmployeeModel>>(ApiResponse);
                     ViewBag.Managers = res;
                 }
-
                 using (var response = await client.GetAsync("https://localhost:44302/api/Employee/GetEmployeeByID?id=" + id))
                 {
                     var ApiResponse = await response.Content.ReadAsStringAsync();
@@ -122,8 +152,14 @@ namespace EmployeeManagement.MVC.Controllers
         {
             try
             {
+                if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+                {
+                    return RedirectToAction("Login", "Login");
+                }
                 using (HttpClient client=new HttpClient())
                 {
+                    var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                    client.DefaultRequestHeaders.Add("Authorization", tc);
                     StringContent stringContent = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json");
                     using (var response = await client.PutAsync("https://localhost:44302/api/Employee/UpdateEmployee?id=" + model.ID, stringContent))
                     {
@@ -140,8 +176,14 @@ namespace EmployeeManagement.MVC.Controllers
         // GET: EmployeeController/Delete/5
         public async Task<ActionResult> Delete(int id)
         {
+            if (HttpContext.Session.GetString("Token") == null || HttpContext.Session.GetString("Token") == "")
+            {
+                return RedirectToAction("Login", "Login");
+            }
             using (HttpClient client = new HttpClient())
             {
+                var tc = "Bearer " + HttpContext.Session.GetString("Token");
+                client.DefaultRequestHeaders.Add("Authorization", tc);
                 using (var response = await client.DeleteAsync("https://localhost:44302/api/Employee/DeleteEmployee?id=" + id))
                 {
                     return RedirectToAction("Index");

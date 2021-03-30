@@ -26,7 +26,7 @@ namespace EmployeeManagement.MVC.Controllers
             //    return RedirectToAction("Login", "Login");
             //}
             //ViewBag.UserName = HttpContext.Session.GetString("UserName");
-            return View();
+            return RedirectToAction("Login","Login");
         }
 
         public IActionResult Privacy()
@@ -34,10 +34,10 @@ namespace EmployeeManagement.MVC.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+       
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

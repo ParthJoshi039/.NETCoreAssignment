@@ -1,5 +1,6 @@
 ﻿using Employeemanagement.DAL.Interface;
 using Employeemanagement.Model;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace Employeemanagement.WEBAPI.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
@@ -21,7 +23,7 @@ namespace Employeemanagement.WEBAPI.Controllers
             ilogin = login;
             ilogger = logger;
         }
-
+        [AllowAnonymous]
         [HttpPost]
         [Route("Login")]
         public IActionResult Login([FromBody] LoginModel loginModel)

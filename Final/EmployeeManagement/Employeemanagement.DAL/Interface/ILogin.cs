@@ -6,7 +6,7 @@ using System.Text;
 namespace Employeemanagement.DAL.Interface
 {
     public interface ILogin
-    {
+    {   
         string login(LoginModel loginModel);
     }
 }
