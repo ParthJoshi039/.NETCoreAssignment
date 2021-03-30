@@ -14,3 +14,17 @@ D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFram
 D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CopyComplete
 D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.dll
 D:\a1-main\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.pdb
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.dll.config
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.DAL.pdb
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.Model.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\Hotelmanagement.Model.pdb
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.xml
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csprojAssemblyReference.cache
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CoreCompileInputs.cache
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.csproj.CopyComplete
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.DAL\obj\Debug\Hotelmanagement.DAL.pdb

@@ -3,3 +3,9 @@ D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Mo
 D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.csproj.CoreCompileInputs.cache
 D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.dll
 D:\New folder\.NETCoreAssignment-master\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.pdb
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\bin\Debug\Hotelmanagement.Model.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\bin\Debug\Hotelmanagement.Model.pdb
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.csprojAssemblyReference.cache
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.csproj.CoreCompileInputs.cache
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.dll
+D:\.NETCore\WebApi\HotelmanagementWebapi\Hotelmanagement.Model\obj\Debug\Hotelmanagement.Model.pdb
