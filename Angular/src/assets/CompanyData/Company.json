@@ -1,0 +1,88 @@
+{
+       "Company": [
+         {
+           "id": 1,
+           "email": "jparth678@gmail.com",
+           "name": "Parth Enterprice",
+           "totalEmployee": "1000",
+           "address": "Vastral",
+           "isCompanyActive": true,
+           "totalBranch": "1",
+           "companyBranch": [
+             {
+               "branchId": "1",
+               "branchName": "Vas-Ahm",
+               "address": "Vastral"
+             }
+           ]
+         },
+         {
+           "id": 1,
+           "email": "jparth678@gmail.com",
+           "name": "Parth Enterprice",
+           "totalEmployee": "1000",
+           "address": "Vastral",
+           "isCompanyActive": true,
+           "totalBranch": "1",
+           "companyBranch": [
+             {
+               "branchId": "1",
+               "branchName": "Vas-Ahm",
+               "address": "Vastral"
+             }
+           ]
+         },
+         {
+           "id": 1,
+           "email": "jparth678@gmail.com",
+           "name": "Parth Enterprice",
+           "totalEmployee": "1000",
+           "address": "Vastral",
+           "isCompanyActive": true,
+           "totalBranch": "1",
+           "companyBranch": [
+             {
+               "branchId": "1",
+               "branchName": "Vas-Ahm",
+               "address": "Vastral"
+             }
+           ]
+         },
+         {
+           "name": "hdfs",
+           "email": "jparth439@gmail.com",
+           "totalEmployee": 10,
+           "address": " gh ",
+           "isCompanyActive": " esd",
+           "totalBranch": "rvh",
+           "id": 2
+         },
+         {
+           "name": "hdfs",
+           "email": "jparth678@gmail.com",
+           "totalEmployee": 121,
+           "address": "tfyuu c",
+           "isCompanyActive": " ndu5rt",
+           "totalBranch": " rtu",
+           "id": 3
+         },
+         {
+           "name": "hdfs",
+           "email": "jparth678@gmail.com",
+           "totalEmployee": 121,
+           "address": "tfyuu c",
+           "isCompanyActive": " ndu5rt",
+           "totalBranch": " rtu",
+           "id": 4
+         },
+         {
+           "name": "hdfs",
+           "email": "jparth439@gmail.com",
+           "totalEmployee": 111,
+           "address": "72, Pushkar Homes",
+           "isCompanyActive": " gy,m",
+           "totalBranch": "ygh j",
+           "id": 5
+         }
+       ]
+     }
